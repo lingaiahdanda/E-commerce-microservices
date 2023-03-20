@@ -1,6 +1,5 @@
 package com.linga.orderservice.dto;
 
-import com.linga.orderservice.model.OrderLineItems;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,5 +12,5 @@ import java.util.List;
 @Data
 @Builder
 public class OrderRequest {
-    private List<OrderLineItemsDTO> orderLineItemsList;
+    private List<OrderLineItemsDto> orderLineItemsList;
 }
